@@ -1,0 +1,33 @@
+input {
+  height: 35px;
+  width: 300px;
+}
+
+#content {
+  width: 100%;
+  margin-top: 30px;
+}
+
+span {
+  background-color: yellow;
+}
+
+.block {
+  height: 55px;
+  width: 85%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.block:nth-child(2n - 1) {
+  background-color: aqua;
+}
+
+.block:nth-child(2n) {
+  background-color: rgb(162, 0, 255);
+}
+
+h2, h4 {
+  margin: 2px;
+}
